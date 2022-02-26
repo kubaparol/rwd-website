@@ -1,0 +1,153 @@
+/* head container  */
+
+.head__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-size: 100% 100%;
+    background-position-x: 0;
+    background-position-y: 0;
+    height: 500px;
+}
+
+.container__img {
+    width: 280px;
+}
+
+.headline__bigger {
+    font-size: 32px;
+}
+
+.headline__smaller {
+    font-size: 16px;
+}
+
+/* icons */
+
+.icons__container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.icons__headline {
+    font-size: 32px;
+    margin: 80px auto;
+    max-width: 315px;
+}
+
+.container__blue, .container__orange, .container__green {
+    width: 25vw;
+}
+
+.blue__headline, .orange__headline, .green__headline {
+    font-size: 17px;
+}
+
+/* features */
+
+.features {
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+    margin-bottom: 150px;
+    align-items: center;
+}
+
+.features__container {
+    max-width: 300px;
+}
+
+.features__headline {
+    text-align: left;
+    font-size: 32px;
+}
+
+.features__img {
+    height: 167px;
+}
+
+/* testmonial */
+
+.testmonial {
+    background-size: 136%;
+    background-position-x: -100px;
+    background-position-y: 0;
+    width: 100%;
+    height: 400px;
+}
+
+.testmonial__headline {
+    max-width: 300px;
+    margin: 5px auto;
+    font-size: 32px;
+}
+
+.testmonial__paragraph {
+    max-width: 620px;
+    margin: 10px auto;
+}
+
+/* plan */
+
+.plan__headline {
+    margin-top: 120px;
+    font-size: 32px;
+}
+
+.plan__paragraph {
+    margin-bottom: 50px;
+}
+
+.plan__list {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.plan__item {
+    width: 25vw;
+}
+
+.plan__menu {
+    margin-bottom: 120px;
+}
+
+/* apps */
+
+.header__headline {
+    font-size: 32px;
+}
+
+/* end */
+
+.end {
+    display: grid;
+    grid-template-areas: 
+    "socialmedia services"
+    "useful-links downloads";
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 50% 50%;
+    padding: 50px;
+}
+
+.end__socialmedia {
+    grid-area: socialmedia;
+}
+
+.end__services {
+    grid-area: services;
+}
+
+.end__useful-links {
+    grid-area: useful-links;
+}
+
+.end__downloads {
+    grid-area: downloads;
+}
+
+a {
+    text-decoration: none;
+    color: #b2bec3;
+}

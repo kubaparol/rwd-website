@@ -1,0 +1,125 @@
+.navbar__label {
+    display: none;
+}
+
+.menu__list {
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__item {
+    margin: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.download {
+    position: absolute;
+    right: 0;
+    background-color: #59B0FE;
+    padding: 10px 30px;
+    transition: .2s;
+}
+
+.head__container {
+    height: 90vh;
+    background-size: 100% 100%;
+    max-height: 765px;
+    justify-content: space-around;
+}
+
+.container__img {
+    width: 480px;
+    margin-top: 200px;
+}
+
+.features__headline {
+    margin-top: 100px;
+}
+
+.apps {
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.apps__header {
+    max-width: 550px;
+}
+
+.end {
+    grid-template-areas: 
+    "socialmedia services useful-links downloads";
+    grid-template-rows: 200px;
+    grid-template-columns: 40% 20% 20% 20%;
+    padding: 50px;
+}
+
+.socialmedia__paragraph {
+    max-width: 300px;
+}
+
+.features__img {
+    height: 320px;
+}
+
+.features {
+    justify-content: center;
+    margin: 150px auto;
+}
+
+.features__container {
+    margin: 50px;
+}
+
+.download:hover {
+    border-radius: 20px;
+    background-color: #3A81F5;
+    cursor: pointer;
+    color: turquoise;
+}
+
+.headline__btn, .features__btn, .item__btn {
+    transition: .2s;
+    font-size: 18px;
+}
+
+.headline__btn:hover {
+    box-shadow: 0 0 15px 1px turquoise;
+}
+
+.features__btn:hover {
+    box-shadow: 0 0 15px 1px #0181F5;
+}
+
+.plan__item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 8px #ddd;
+}
+
+.item__btn:hover {
+    background-color: #59B0FE;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #b2bec3;
+}
+
+.blue__headline, .orange__headline, .green__headline {
+    font-size: 20px;
+}
