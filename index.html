@@ -20,10 +20,10 @@
             <section class="navbar">
                 <img src="./images/logo.png" alt="logo" class="navbar__logo">
                 <label class="navbar__label" for="menu__switcher">
-                    <div class="hamburger-lines">
-                        <span class="line line1"></span>
-                        <span class="line line2"></span>
-                        <span class="line line3"></span>
+                    <div class="navbar__hamburger">
+                        <span class="hamburger__line1"></span>
+                        <span class="hamburger__line2"></span>
+                        <span class="hamburger__line3"></span>
                     </div>
                 </label>
             </section>
@@ -52,26 +52,26 @@
             <header>
                 <h2 class="icons__headline">Save your time to using applab</h2>
             </header>
-            <main class="icons__container">
-                <article class="container__blue">
-                    <div class="blue__background">
-                        <img class="blue__img" src="./images/icons/2.svg" alt="icon">
+            <ul class="icons__container">
+                <li class="container__icon-first">
+                    <div class="icon-first__background">
+                        <img class="icon-first__img" src="./images/icons/2.svg" alt="icon">
                     </div>
-                    <h3 class="blue__headline">Manage team in One Place</h3>
-                </article>
-                <article class="container__orange">
-                    <div class="orange__background">
-                        <img class="orange__img" src="./images/icons/1.svg" alt="icon">
+                    <h3 class="icon-first__headline">Manage team in One Place</h3>
+                </li>
+                <li class="container__icon-second">
+                    <div class="icon-second__background">
+                        <img class="icon-second__img" src="./images/icons/1.svg" alt="icon">
                     </div>
-                    <h3 class="orange__headline">All-powerful Pointing has no control</h3>
-                </article>
-                <article class="container__green">
-                    <div class="green__background">
-                        <img class="green__img" src="./images/icons/3.svg" alt="icon">
+                    <h3 class="icon-second__headline">All-powerful Pointing has no control</h3>
+                </li>
+                <li class="container__icon-third">
+                    <div class="icon-third__background">
+                        <img class="icon-third__img" src="./images/icons/3.svg" alt="icon">
                     </div>
-                    <h3 class="green__headline">Establish a solid online presence</h3>
-                </article>
-            </main>
+                    <h3 class="icon-third__headline">Establish a solid online presence</h3>
+                </li>
+            </ul>
         </section>
         <section id="features" class="features">
             <article class="features__container">
@@ -98,70 +98,68 @@
                 <h2 class="plan__headline">Unlock full Power</h2>
                 <p class="plan__paragraph">Lorem ipsum dolor sit amet, consectetur adipsiscing elit sed do eiusmod tempor incididunt.</p>
             </header>
-            <main>
-                <article class="plan__menu">
-                    <ul class="plan__list">
-                        <li class="plan__item item">
-                            <header class="item__header basic">
-                                <h2 class="item__type">Basic</h2>
-                                <h3 class="basic__price">$06</h3>
-                            </header>
-                            <main class="item__main">
-                                <ul class="main__menu">
-                                    <li>One User</li>
-                                    <li>1000 ui elements</li>
-                                    <li>Webmail Support</li>
-                                    <li>100GB Cloud Storage</li>
-                                    <li><button class="item__btn">Get Now</button></li>
-                                </ul>
-                            </main>
-                        </li>
-                        <li class="plan__item item">
-                            <header class="item__header team">
-                                <h2 class="item__type">Team</h2>
-                                <h3 class="team__price">$06</h3>
-                            </header>
-                            <main class="item__main">
-                                <ul class="main__menu">
-                                    <li>One User</li>
-                                    <li>1000 ui elements</li>
-                                    <li>Webmail Support</li>
-                                    <li>100GB Cloud Storage</li>
-                                    <li>Unlimited Users Limit</li>
-                                    <li><button class="item__btn">Get Now</button></li>
-                                </ul>   
-                            </main>
-                        </li>
-                        <li class="plan__item item">
-                            <header class="item__header business">
-                                <h2 class="item__type">Business</h2>
-                                <h3 class="business__price">$06</h3>
-                            </header>
-                            <main class="item__main">
-                                <ul class="main__menu">
-                                    <li>One User</li>
-                                    <li>1000 ui elements</li>
-                                    <li>Webmail Support</li>
-                                    <li>100GB Cloud Storage</li>
-                                    <li><button class="item__btn">Get Now</button></li>
-                                </ul>
-                            </main>
-                        </li>
-                    </ul>
-                </article>
-            </main>
+            <article class="plan__menu">
+                <ul class="plan__list">
+                    <li class="plan__item item">
+                        <header class="item__header basic">
+                            <h2 class="item__type">Basic</h2>
+                            <h3 class="basic__price">$06</h3>
+                        </header>
+                        <div class="item__main">
+                            <ul class="main__menu">
+                                <li>One User</li>
+                                <li>1000 ui elements</li>
+                                <li>Webmail Support</li>
+                                <li>100GB Cloud Storage</li>
+                                <li><button class="item__btn">Get Now</button></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="plan__item item">
+                        <header class="item__header team">
+                            <h2 class="item__type">Team</h2>
+                            <h3 class="team__price">$06</h3>
+                        </header>
+                        <div class="item__main">
+                            <ul class="main__menu">
+                                <li>One User</li>
+                                <li>1000 ui elements</li>
+                                <li>Webmail Support</li>
+                                <li>100GB Cloud Storage</li>
+                                <li>Unlimited Users Limit</li>
+                                <li><button class="item__btn">Get Now</button></li>
+                            </ul>   
+                        </div>
+                    </li>
+                    <li class="plan__item item">
+                        <header class="item__header business">
+                            <h2 class="item__type">Business</h2>
+                            <h3 class="business__price">$06</h3>
+                        </header>
+                        <div class="item__main">
+                            <ul class="main__menu">
+                                <li>One User</li>
+                                <li>1000 ui elements</li>
+                                <li>Webmail Support</li>
+                                <li>100GB Cloud Storage</li>
+                                <li><button class="item__btn">Get Now</button></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </article>
         </section>
         <section class="apps">
-            <article class="apps__header">
+            <header class="apps__header">
                 <h2 class="header__headline">Get start from now and increase productivity</h2>
-            </article>
-            <article class="apps__icons">
-                <a href="#"><img src="./images/app.svg" alt="icon app store"></a>
-                <a href="#"><img src="./images/play.svg" alt="icon google play"></a>
-            </article>
+            </header>
+            <ul class="apps__icons">
+                <li><a href="#"><img src="./images/app.svg" alt="icon app store"></a></li>
+                <li><a href="#"><img src="./images/play.svg" alt="icon google play"></a></li>
+            </ul>
         </section>
-        <section id="footer" class="end">
-            <article class="end__socialmedia">
+        <nav id="footer" class="end">
+            <section class="end__socialmedia">
                 <h2 class="sociamedia__logo"><img src="./images/logo.png" alt="logo"></h2>
                 <p class="socialmedia__paragraph">Firmament morning sixth eubdue darkness creeping gathered divide.</p>
                 <ul class="socialmedia__icons">
@@ -169,8 +167,8 @@
                     <li class="icons__twitter"><i class="fa-brands fa-twitter"></i></li>
                     <li class="icons__instagram"><i class="fa-brands fa-instagram"></i></li>
                 </ul>
-            </article>
-            <article class="end__services">
+            </section>
+            <section class="end__services">
                 <h2 class="services__headline">Services</h2>
                 <ul class="services_list">
                     <li class="services__item"><a href="#">Team management</li></a>
@@ -178,8 +176,8 @@
                     <li class="services__item"><a href="#">Todo</li></a>
                     <li class="services__item"><a href="#">Events</li></a>
                 </ul>
-            </article>
-            <article class="end__useful-links">
+            </section>
+            <section class="end__useful-links">
                 <h2 class="useful-links__headline">Useful Links</h2>
                 <ul class="useful__links">
                     <li class="useful-links__item"><a href="#">Pricing</li></a>
@@ -187,15 +185,15 @@
                     <li class="useful-links__item"><a href="#">Blog</li></a>
                     <li class="useful-links__item"><a href="#">Contact</li></a>
                 </ul>
-            </article>
-            <article class="end__downloads">
+            </section>
+            <section class="end__downloads">
                 <h2 class="downloads__headline">Downloads</h2>
                 <ul class="downloads__list">
                     <li class="downloads__item"><a href="#">Download from Apple Store</a></li>
                     <li class="downloads__item"><a href="#">Download from Play Store</a></li>
                 </ul>
-            </article>
-        </section>
+            </section>
+        </nav>
         <footer class="footer">
             <p class="footer__paragraph">Copyright &copy;2020 All right reserved | This template is made with <i class="fa-solid fa-heart"></i> by <a class="paragraph__link" href="https://colorlib.com/">Colorlib</a></p>
             <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>

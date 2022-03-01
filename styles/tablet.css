@@ -36,11 +36,11 @@
     max-width: 315px;
 }
 
-.container__blue, .container__orange, .container__green {
+.container__icon-first, .container__icon-second, .container__icon-third {
     width: 25vw;
 }
 
-.blue__headline, .orange__headline, .green__headline {
+.icon-first__headline, .icon-second__headline, .icon-third__headline {
     font-size: 17px;
 }
 
@@ -119,6 +119,11 @@
     font-size: 32px;
 }
 
+.apps__icons {
+    display: flex;
+}
+
+
 /* end */
 
 .end {
@@ -149,5 +154,5 @@
 
 a {
     text-decoration: none;
-    color: #b2bec3;
+    color: var(--end-items);
 }
